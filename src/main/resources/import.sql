@@ -1,0 +1,28 @@
+INSERT INTO manufacturer (name, home_page, phone) VALUES ('ACME Corporation','https://www.acme-corp.com','(07) 5556 4321');
+INSERT INTO inventory_item (id, name, release_date, manufacturer) VALUES ('d290f1ee-6c54-4b01-90e6-d701748f0851','Widget Adapter','2016-08-29T09:12:33.001Z','ACME Corporation');
+
+INSERT INTO manufacturer (name, home_page, phone) VALUES ('ACME Global','https://www.acme-corp.com','(07) 5556 1111');
+INSERT INTO manufacturer (name, home_page, phone) VALUES ('ACME Admin','https://www.acme-corp.com/admin','(07) 5556 2222');
+INSERT INTO manufacturer (name, home_page, phone) VALUES ('ACME Design','https://www.acme-corp.com/design','(07) 5556 3333');
+INSERT INTO manufacturer (name, home_page, phone) VALUES ('ACME Development','https://www.acme-corp.com/development','(07) 5556 4444');
+INSERT INTO manufacturer (name, home_page, phone) VALUES ('ACME Support','https://www.acme-corp.com/support','(07) 5556 5555');
+INSERT INTO inventory_item (id, name, release_date, manufacturer) VALUES ('d290f1ee-6c54-4b01-90e6-d123456f789a','Widget Adapter  1','2016-08-29T09:12:33.001Z','ACME Global');
+INSERT INTO inventory_item (id, name, release_date, manufacturer) VALUES ('d290f1ee-6c54-4b01-90e6-d234567f8901','Widget Adapter  2','2016-08-29T09:12:33.001Z','ACME Global');
+INSERT INTO inventory_item (id, name, release_date, manufacturer) VALUES ('d290f1ee-6c54-4b01-90e6-d345678f9012','Widget Adapter  3','2016-08-29T09:12:33.001Z','ACME Global');
+INSERT INTO inventory_item (id, name, release_date, manufacturer) VALUES ('d290f1ee-6c54-4b01-90e6-d456789f0123','Widget Adapter  4','2016-08-29T09:12:33.001Z','ACME Global');
+INSERT INTO inventory_item (id, name, release_date, manufacturer) VALUES ('d290f1ee-6c54-4b01-90e6-d567890f1234','Widget Adapter  5','2016-08-29T09:12:33.001Z','ACME Admin');
+INSERT INTO inventory_item (id, name, release_date, manufacturer) VALUES ('d290f1ee-6c54-4b01-90e6-d678901f2345','Widget Adapter  6','2016-08-29T09:12:33.001Z','ACME Admin');
+INSERT INTO inventory_item (id, name, release_date, manufacturer) VALUES ('d290f1ee-6c54-4b01-90e6-d789012f3456','Widget Adapter  7','2016-08-29T09:12:33.001Z','ACME Admin');
+INSERT INTO inventory_item (id, name, release_date, manufacturer) VALUES ('d290f1ee-6c54-4b01-90e6-d890123f4567','Widget Adapter  8','2016-08-29T09:12:33.001Z','ACME Admin');
+INSERT INTO inventory_item (id, name, release_date, manufacturer) VALUES ('d290f1ee-6c54-4b01-90e6-d901234f5678','Widget Adapter  9','2016-08-29T09:12:33.001Z','ACME Design');
+INSERT INTO inventory_item (id, name, release_date, manufacturer) VALUES ('d290f1ee-6c54-4b01-90e6-d012345f6789','Widget Adapter 10','2016-08-29T09:12:33.001Z','ACME Design');
+INSERT INTO inventory_item (id, name, release_date, manufacturer) VALUES ('d290f1ee-6c54-4b01-90e6-d098765f4321','Widget Adapter 11','2016-08-29T09:12:33.001Z','ACME Design');
+INSERT INTO inventory_item (id, name, release_date, manufacturer) VALUES ('d290f1ee-6c54-4b01-90e6-d987654f3210','Widget Adapter 12','2016-08-29T09:12:33.001Z','ACME Design');
+INSERT INTO inventory_item (id, name, release_date, manufacturer) VALUES ('d290f1ee-6c54-4b01-90e6-d876543f2109','Widget Adapter 13','2016-08-29T09:12:33.001Z','ACME Development');
+INSERT INTO inventory_item (id, name, release_date, manufacturer) VALUES ('d290f1ee-6c54-4b01-90e6-d765432f1098','Widget Adapter 14','2016-08-29T09:12:33.001Z','ACME Development');
+INSERT INTO inventory_item (id, name, release_date, manufacturer) VALUES ('d290f1ee-6c54-4b01-90e6-d654321f0987','Widget Adapter 15','2016-08-29T09:12:33.001Z','ACME Development');
+INSERT INTO inventory_item (id, name, release_date, manufacturer) VALUES ('d290f1ee-6c54-4b01-90e6-d543210f9876','Widget Adapter 16','2016-08-29T09:12:33.001Z','ACME Development');
+INSERT INTO inventory_item (id, name, release_date, manufacturer) VALUES ('d290f1ee-6c54-4b01-90e6-d432109f8765','Widget Adapter 17','2016-08-29T09:12:33.001Z','ACME Support');
+INSERT INTO inventory_item (id, name, release_date, manufacturer) VALUES ('d290f1ee-6c54-4b01-90e6-d321098f7654','Widget Adapter 18','2016-08-29T09:12:33.001Z','ACME Support');
+INSERT INTO inventory_item (id, name, release_date, manufacturer) VALUES ('d290f1ee-6c54-4b01-90e6-d210987f6543','Widget Adapter 19','2016-08-29T09:12:33.001Z','ACME Support');
+INSERT INTO inventory_item (id, name, release_date, manufacturer) VALUES ('d290f1ee-6c54-4b01-90e6-d109876f5432','Widget Adapter 20','2016-08-29T09:12:33.001Z','ACME Support');
